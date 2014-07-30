@@ -1,6 +1,6 @@
-update=Wed 30 Jul 2014 04:14:05 PM EDT
+update=Wed 30 Jul 2014 07:02:52 PM EDT
 version=1
-last_client=kicad
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=
@@ -63,6 +63,8 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+[general]
+version=1
 [cvpcb]
 version=1
 NetIExt=net
@@ -70,9 +72,9 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
+PadDrlX=1730
+PadDimH=3000
+PadDimV=3000
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -84,7 +86,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=
+LastNetListRead=TS Electrical System.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -98,5 +100,5 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
-[general]
-version=1
+LibName12=/home/trezitorul/Dropbox/Cubes/Designs/Test Stand Electrical System/CAPSCW
+LibName13=COILCONN

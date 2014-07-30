@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 30 Jul 2014 05:30:10 PM EDT
+EESchema Schematic File Version 2  date Wed 30 Jul 2014 05:31:54 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -43,10 +43,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 7350 7550 0    60   ~ 0
-Expandable Capacitor Bank\n
-Text Notes 10650 7650 0    60   ~ 0
-1.0
+Connection ~ 5100 1100
+Connection ~ 3050 1400
+Wire Wire Line
+	3050 1100 3050 5100
+Wire Wire Line
+	3050 1100 7350 1100
 Connection ~ 6800 5100
 Wire Wire Line
 	6800 5100 6800 4600
@@ -66,8 +68,6 @@ Connection ~ 5150 5100
 Wire Wire Line
 	6500 5100 7350 5100
 Connection ~ 7350 4450
-Wire Wire Line
-	7350 5100 7350 1400
 Connection ~ 7350 4150
 Connection ~ 7350 3550
 Connection ~ 7350 2900
@@ -86,8 +86,6 @@ Connection ~ 6950 2900
 Connection ~ 6950 2300
 Connection ~ 6950 1700
 Connection ~ 3050 4450
-Wire Wire Line
-	3050 1400 3050 5100
 Connection ~ 3050 3850
 Connection ~ 3050 3250
 Connection ~ 3050 2650
@@ -128,6 +126,33 @@ Wire Wire Line
 Wire Wire Line
 	3550 4600 3550 5100
 Connection ~ 3550 5100
+Wire Wire Line
+	7350 5100 7350 1100
+Connection ~ 7350 1400
+Wire Wire Line
+	5150 3450 5150 4100
+$Comp
+L CONN_1 P?
+U 1 1 53D96425
+P 5100 950
+F 0 "P?" H 5180 950 40  0000 L CNN
+F 1 "CONN_1" H 5100 1005 30  0001 C CNN
+	1    5100 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P?
+U 1 1 53D9641D
+P 5150 3300
+F 0 "P?" H 5230 3300 40  0000 L CNN
+F 1 "CONN_1" H 5150 3355 30  0001 C CNN
+	1    5150 3300
+	0    -1   -1   0   
+$EndComp
+Text Notes 7350 7550 0    60   ~ 0
+Expandable Capacitor Bank\n
+Text Notes 10650 7650 0    60   ~ 0
+1.0
 $Comp
 L BNC P?
 U 1 1 53D9628A

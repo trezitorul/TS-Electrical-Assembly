@@ -1,191 +1,127 @@
-# EESchema Netlist Version 1.1 created  Wed 30 Jul 2014 05:35:02 PM EDT
+# EESchema Netlist Version 1.1 created  Wed 30 Jul 2014 07:06:29 PM EDT
 (
- ( /53D96425 $noname  PWRIN1 CONN_1 {Lib=CONN_1}
-  (    1 N-000001 )
+ ( /53D95FA0 CAPSCW C1 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D9641D $noname  PWRGND1 CONN_1 {Lib=CONN_1}
-  (    1 N-000003 )
+ ( /53D9628A bnc C1PT1 BNC
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D9628A $noname  C1PT1 BNC {Lib=BNC}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D9627A bnc C1PT2 BNC
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D9627A $noname  C1PT2 BNC {Lib=BNC}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D95FAB CAPSCW C2 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D96065 $noname  MSW1 SPST {Lib=SPST}
-  (    1 N-000003 )
-  (    2 N-000002 )
+ ( /53D95FB5 CAPSCW C3 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D961F9 $noname  COIL1 INDUCTOR {Lib=INDUCTOR}
-  (    1 N-000001 )
-  (    2 N-000002 )
+ ( /53D95FB4 CAPSCW C4 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D961EB $noname  COIL2 INDUCTOR {Lib=INDUCTOR}
-  (    1 N-000002 )
-  (    2 N-000001 )
+ ( /53D95FC1 CAPSCW C5 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D96017 $noname  TVS2 DIODESCH {Lib=DIODESCH}
-  (    1 N-000003 )
-  (    2 N-000001 )
+ ( /53D95FC0 CAPSCW C6 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D9600F $noname  TVS1 DIODESCH {Lib=DIODESCH}
-  (    1 N-000003 )
-  (    2 N-000001 )
+ ( /53D95FBE CAPSCW C7 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D95FE6 $noname  C20 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D95FBF CAPSCW C8 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D95FE5 $noname  C19 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D95FC9 CAPSCW C9 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D95FE4 $noname  C17 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D95FC8 CAPSCW C10 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D95FE3 $noname  C18 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D95FDE CAPSCW C11 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D95FE2 $noname  C14 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D95FDD CAPSCW C12 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D95FE1 $noname  C13 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D95FE1 CAPSCW C13 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D95FE0 $noname  C15 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D95FE2 CAPSCW C14 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D95FDF $noname  C16 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D95FE0 CAPSCW C15 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D95FDE $noname  C11 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D95FDF CAPSCW C16 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D95FDD $noname  C12 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D95FE4 CAPSCW C17 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D95FC9 $noname  C9 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D95FE3 CAPSCW C18 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D95FC8 $noname  C10 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D95FE5 CAPSCW C19 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D95FC1 $noname  C5 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D95FE6 CAPSCW C20 CP1
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53D95FC0 $noname  C6 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D961F9 COIL COIL1 INDUCTOR
+  ( 1 N-000001 )
+  ( 2 N-000002 )
  )
- ( /53D95FBF $noname  C8 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D961EB COIL COIL2 INDUCTOR
+  ( 1 N-000002 )
+  ( 2 N-000001 )
  )
- ( /53D95FBE $noname  C7 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D96065 COIL MSW1 SPST
+  ( 1 N-000003 )
+  ( 2 N-000002 )
  )
- ( /53D95FB5 $noname  C3 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D9641D 1pin PWRGND1 CONN_1
+  ( 1 N-000003 )
  )
- ( /53D95FB4 $noname  C4 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D96425 1pin PWRIN1 CONN_1
+  ( 1 N-000001 )
  )
- ( /53D95FAB $noname  C2 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D9600F D4 TVS1 DIODESCH
+  ( 1 N-000003 )
+  ( 2 N-000001 )
  )
- ( /53D95FA0 $noname  C1 CP1 {Lib=CP1}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53D96017 D4 TVS2 DIODESCH
+  ( 1 N-000003 )
+  ( 2 N-000001 )
  )
 )
 *
 { Allowed footprints by component:
-$component TVS2
- D?
- S*
-$endlist
-$component TVS1
- D?
- S*
-$endlist
-$component C20
+$component C1
  CP*
  SM*
 $endlist
-$component C19
- CP*
- SM*
-$endlist
-$component C17
- CP*
- SM*
-$endlist
-$component C18
- CP*
- SM*
-$endlist
-$component C14
- CP*
- SM*
-$endlist
-$component C13
- CP*
- SM*
-$endlist
-$component C15
- CP*
- SM*
-$endlist
-$component C16
- CP*
- SM*
-$endlist
-$component C11
- CP*
- SM*
-$endlist
-$component C12
- CP*
- SM*
-$endlist
-$component C9
- CP*
- SM*
-$endlist
-$component C10
- CP*
- SM*
-$endlist
-$component C5
- CP*
- SM*
-$endlist
-$component C6
- CP*
- SM*
-$endlist
-$component C8
- CP*
- SM*
-$endlist
-$component C7
+$component C2
  CP*
  SM*
 $endlist
@@ -197,75 +133,77 @@ $component C4
  CP*
  SM*
 $endlist
-$component C2
+$component C5
  CP*
  SM*
 $endlist
-$component C1
+$component C6
  CP*
  SM*
+$endlist
+$component C7
+ CP*
+ SM*
+$endlist
+$component C8
+ CP*
+ SM*
+$endlist
+$component C9
+ CP*
+ SM*
+$endlist
+$component C10
+ CP*
+ SM*
+$endlist
+$component C11
+ CP*
+ SM*
+$endlist
+$component C12
+ CP*
+ SM*
+$endlist
+$component C13
+ CP*
+ SM*
+$endlist
+$component C14
+ CP*
+ SM*
+$endlist
+$component C15
+ CP*
+ SM*
+$endlist
+$component C16
+ CP*
+ SM*
+$endlist
+$component C17
+ CP*
+ SM*
+$endlist
+$component C18
+ CP*
+ SM*
+$endlist
+$component C19
+ CP*
+ SM*
+$endlist
+$component C20
+ CP*
+ SM*
+$endlist
+$component TVS1
+ D?
+ S*
+$endlist
+$component TVS2
+ D?
+ S*
 $endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 1 "" ""
- C15 1
- C13 1
- C16 1
- C11 1
- C12 1
- C9 1
- C10 1
- C6 1
- C8 1
- C7 1
- C5 1
- COIL2 2
- TVS2 2
- PWRIN1 1
- C1PT1 1
- TVS1 2
- C1 1
- C20 1
- COIL1 1
- C3 1
- C14 1
- C1PT2 1
- C18 1
- C4 1
- C17 1
- C2 1
- C19 1
-Net 2 "" ""
- MSW1 2
- COIL1 2
- COIL2 1
-Net 3 "" ""
- MSW1 1
- C14 2
- TVS2 1
- TVS1 1
- C20 2
- C19 2
- C17 2
- C18 2
- C12 2
- C13 2
- C15 2
- C16 2
- C1 2
- C11 2
- C2 2
- C9 2
- C10 2
- C4 2
- C5 2
- C6 2
- C3 2
- C8 2
- PWRGND1 1
- C1PT1 2
- C7 2
- C1PT2 2
-}
-#End
