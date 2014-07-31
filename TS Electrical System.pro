@@ -1,4 +1,4 @@
-update=Wed 30 Jul 2014 07:02:52 PM EDT
+update=Thu 31 Jul 2014 02:39:26 PM EDT
 version=1
 last_client=pcbnew
 [eeschema]
@@ -73,8 +73,8 @@ EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=1730
-PadDimH=3000
-PadDimV=3000
+PadDimH=2200
+PadDimV=7500
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -102,3 +102,4 @@ LibName10=pga_sockets
 LibName11=valves
 LibName12=/home/trezitorul/Dropbox/Cubes/Designs/Test Stand Electrical System/CAPSCW
 LibName13=COILCONN
+LibName14=CAPSCWSM
