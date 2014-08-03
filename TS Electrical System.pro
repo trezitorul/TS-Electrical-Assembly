@@ -1,6 +1,6 @@
-update=Thu 31 Jul 2014 02:39:26 PM EDT
+update=Sun 03 Aug 2014 02:47:31 PM EDT
 version=1
-last_client=pcbnew
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=
@@ -65,16 +65,11 @@ LibName29=contrib
 LibName30=valves
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=1730
-PadDimH=2200
-PadDimV=7500
+PadDrlX=3500
+PadDimH=7000
+PadDimV=7000
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -88,7 +83,6 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=TS Electrical System.net
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -103,3 +97,14 @@ LibName11=valves
 LibName12=/home/trezitorul/Dropbox/Cubes/Designs/Test Stand Electrical System/CAPSCW
 LibName13=COILCONN
 LibName14=CAPSCWSM
+LibName15=CAPSCWEW
+LibName16=bncSquare
+LibName17=bncs
+LibName18=SquareBnc
+LibName19=bncSqr
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
