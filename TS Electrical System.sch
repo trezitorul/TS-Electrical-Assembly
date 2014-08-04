@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 30 Jul 2014 05:36:56 PM EDT
+EESchema Schematic File Version 2  date Mon 04 Aug 2014 10:29:46 AM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,13 +29,15 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-EELAYER 43  0
+LIBS:termblock
+LIBS:TS Electrical System-cache
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "30 jul 2014"
+Date "4 aug 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -43,96 +45,194 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 2400 5900 0    60   ~ 0
-PWR Ports go to external Power Supply, and the BNC connectors go to an oscilloscope for measuring the output characteristics of the bank.\n\n\n\n\n\n\n\n
-Connection ~ 5100 1100
-Connection ~ 3050 1400
+Connection ~ 5900 5100
 Wire Wire Line
-	3050 1100 3050 5100
+	5900 5250 6050 5250
 Wire Wire Line
-	3050 1100 7350 1100
-Connection ~ 6800 5100
+	5900 5250 5900 4800
+Connection ~ 4250 5100
 Wire Wire Line
-	6800 5100 6800 4600
+	4250 4800 4250 5350
 Wire Wire Line
-	6800 4600 6350 4600
-Connection ~ 4100 4150
+	4250 4800 4100 4800
 Wire Wire Line
-	4100 4400 4100 4150
-Connection ~ 5150 4100
+	4250 5350 4150 5350
+Connection ~ 2050 1850
 Wire Wire Line
-	3450 4150 5050 4150
+	1700 4450 3050 4450
 Wire Wire Line
-	5050 4150 5050 4100
+	1700 4450 1700 1850
 Wire Wire Line
-	5050 4100 5250 4100
-Connection ~ 5150 5100
+	4900 2850 4900 3450
 Wire Wire Line
-	6500 5100 7350 5100
-Connection ~ 7350 4450
-Connection ~ 7350 4150
-Connection ~ 7350 3550
-Connection ~ 7350 2900
-Connection ~ 7350 2300
-Connection ~ 7350 1700
-Connection ~ 3450 4150
+	5100 1100 5100 1850
+Connection ~ 4900 1850
+Connection ~ 3250 2850
+Connection ~ 2950 2850
+Connection ~ 4300 2850
 Wire Wire Line
-	3450 4450 3450 1400
-Connection ~ 3450 3550
-Connection ~ 3450 2950
-Connection ~ 3450 2300
-Connection ~ 3450 1700
-Connection ~ 6950 4150
-Connection ~ 6950 3550
-Connection ~ 6950 2900
-Connection ~ 6950 2300
-Connection ~ 6950 1700
-Connection ~ 3050 4450
-Connection ~ 3050 3850
-Connection ~ 3050 3250
-Connection ~ 3050 2650
-Connection ~ 3050 2000
-Connection ~ 3050 1700
-Connection ~ 3050 2300
-Connection ~ 3050 2950
-Connection ~ 3050 3550
-Connection ~ 3050 4150
-Connection ~ 6950 2000
-Connection ~ 6950 2600
-Connection ~ 6950 3250
-Connection ~ 6950 3850
-Connection ~ 3450 2000
-Connection ~ 3450 2650
-Connection ~ 3450 3250
-Connection ~ 3450 3850
+	4900 2850 2050 2850
+Connection ~ 2350 1850
+Connection ~ 3700 1850
+Connection ~ 3250 1850
+Connection ~ 4000 1850
+Connection ~ 4600 1850
 Wire Wire Line
-	6950 4450 6950 1400
-Connection ~ 7350 2000
-Connection ~ 7350 2600
-Connection ~ 7350 3250
-Connection ~ 7350 3850
-Connection ~ 6950 4450
+	5150 3450 5150 4100
+Connection ~ 3550 5100
 Wire Wire Line
-	3050 5100 3650 5100
+	3550 5100 3550 4600
+Wire Wire Line
+	3550 4600 3950 4600
 Wire Wire Line
 	5900 5100 4250 5100
 Wire Wire Line
-	6950 4150 5250 4150
+	3050 5100 3650 5100
+Connection ~ 3050 4450
+Connection ~ 7350 4450
+Connection ~ 5150 5100
+Connection ~ 5150 4100
 Wire Wire Line
-	5250 4150 5250 4100
+	6350 4600 6800 4600
 Wire Wire Line
-	6200 4400 6200 4150
-Connection ~ 6200 4150
+	6800 4600 6800 5100
+Connection ~ 6800 5100
+Connection ~ 5100 1100
+Connection ~ 4300 1850
+Connection ~ 2950 1850
+Connection ~ 2650 1850
+Connection ~ 4600 2850
+Connection ~ 4000 2850
 Wire Wire Line
-	3950 4600 3550 4600
+	2650 2850 2350 2850
+Connection ~ 2350 2850
+Connection ~ 2650 2850
+Connection ~ 3700 2850
+Connection ~ 7250 2850
+Connection ~ 6200 2850
+Connection ~ 5900 2850
 Wire Wire Line
-	3550 4600 3550 5100
-Connection ~ 3550 5100
+	6200 2850 5900 2850
+Connection ~ 7550 2850
+Connection ~ 8150 2850
+Connection ~ 6200 1850
+Connection ~ 6500 1850
+Connection ~ 7850 1850
+Connection ~ 8150 1850
+Connection ~ 7550 1850
+Connection ~ 6800 1850
+Connection ~ 7250 1850
+Connection ~ 5900 1850
 Wire Wire Line
-	7350 5100 7350 1100
-Connection ~ 7350 1400
+	8450 2850 5600 2850
+Connection ~ 7850 2850
+Connection ~ 6500 2850
+Connection ~ 6800 2850
+Connection ~ 5600 1850
+Connection ~ 5100 1850
 Wire Wire Line
-	5150 3450 5150 4100
+	3050 5100 3050 4450
+Wire Wire Line
+	5100 1850 4900 1850
+Wire Wire Line
+	4900 3450 5600 3450
+Wire Wire Line
+	5600 3450 5600 2850
+Connection ~ 5150 3450
+Wire Wire Line
+	8750 4450 7350 4450
+Wire Wire Line
+	8750 4450 8750 1850
+Wire Wire Line
+	8750 1850 1700 1850
+Connection ~ 8450 1850
+Wire Wire Line
+	7350 4450 7350 5100
+Wire Wire Line
+	3650 5100 3650 5350
+Wire Wire Line
+	3650 5350 3750 5350
+Wire Wire Line
+	5900 4800 6200 4800
+Wire Wire Line
+	7350 5100 6450 5100
+Wire Wire Line
+	6450 5100 6450 5250
+Connection ~ 6500 5100
+$Comp
+L TERMBLOCK T5
+U 1 1 53DEB4CB
+P 5950 1350
+F 0 "T5" H 5850 1450 60  0000 C CNN
+F 1 "TERMBLOCK" H 5700 1250 60  0000 C CNN
+	1    5950 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L TERMBLOCK T6
+U 1 1 53DEB4CA
+P 5950 2350
+F 0 "T6" H 5850 2450 60  0000 C CNN
+F 1 "TERMBLOCK" H 5700 2250 60  0000 C CNN
+	1    5950 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L TERMBLOCK T7
+U 1 1 53DEB4C9
+P 7600 1350
+F 0 "T7" H 7500 1450 60  0000 C CNN
+F 1 "TERMBLOCK" H 7350 1250 60  0000 C CNN
+	1    7600 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L TERMBLOCK T8
+U 1 1 53DEB4C8
+P 7600 2350
+F 0 "T8" H 7500 2450 60  0000 C CNN
+F 1 "TERMBLOCK" H 7350 2250 60  0000 C CNN
+	1    7600 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L TERMBLOCK T4
+U 1 1 53DEB477
+P 4050 2350
+F 0 "T4" H 3950 2450 60  0000 C CNN
+F 1 "TERMBLOCK" H 3800 2250 60  0000 C CNN
+	1    4050 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L TERMBLOCK T3
+U 1 1 53DEB472
+P 4050 1350
+F 0 "T3" H 3950 1450 60  0000 C CNN
+F 1 "TERMBLOCK" H 3800 1250 60  0000 C CNN
+	1    4050 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L TERMBLOCK T2
+U 1 1 53DEB465
+P 2400 2350
+F 0 "T2" H 2300 2450 60  0000 C CNN
+F 1 "TERMBLOCK" H 2150 2250 60  0000 C CNN
+	1    2400 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L TERMBLOCK T1
+U 1 1 53DEB423
+P 2400 1350
+F 0 "T1" H 2300 1450 60  0000 C CNN
+F 1 "TERMBLOCK" H 2150 1250 60  0000 C CNN
+	1    2400 1350
+	-1   0    0    1   
+$EndComp
+Text Notes 2400 5900 0    60   ~ 0
+PWR Ports go to external Power Supply, and the BNC connectors go to an oscilloscope for measuring the output characteristics of the bank.\n\n\n\n\n\n\n\n
 $Comp
 L CONN_1 PWRIN1
 U 1 1 53D96425
@@ -162,7 +262,7 @@ P 4100 4600
 F 0 "C1PT1" H 4110 4720 60  0000 C CNN
 F 1 "BNC" V 4210 4540 40  0000 C CNN
 	1    4100 4600
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L BNC C1PT2
@@ -171,7 +271,7 @@ P 6200 4600
 F 0 "C1PT2" H 6210 4720 60  0000 C CNN
 F 1 "BNC" V 6310 4540 40  0000 C CNN
 	1    6200 4600
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SPST MSW1
@@ -203,199 +303,19 @@ $EndComp
 $Comp
 L DIODESCH TVS2
 U 1 1 53D96017
-P 7150 4450
-F 0 "TVS2" H 7150 4550 40  0000 C CNN
-F 1 "DIODESCH" H 7150 4350 40  0000 C CNN
-	1    7150 4450
+P 6250 5250
+F 0 "TVS2" H 6250 5350 40  0000 C CNN
+F 1 "DIODESCH" H 6250 5150 40  0000 C CNN
+	1    6250 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L DIODESCH TVS1
 U 1 1 53D9600F
-P 3250 4450
-F 0 "TVS1" H 3250 4550 40  0000 C CNN
-F 1 "DIODESCH" H 3250 4350 40  0000 C CNN
-	1    3250 4450
+P 3950 5350
+F 0 "TVS1" H 3950 5450 40  0000 C CNN
+F 1 "DIODESCH" H 3950 5250 40  0000 C CNN
+	1    3950 5350
 	-1   0    0    1   
-$EndComp
-$Comp
-L CP1 C20
-U 1 1 53D95FE6
-P 7150 4150
-F 0 "C20" H 7200 4250 50  0000 L CNN
-F 1 "CP1" H 7200 4050 50  0000 L CNN
-	1    7150 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L CP1 C19
-U 1 1 53D95FE5
-P 7150 3850
-F 0 "C19" H 7200 3950 50  0000 L CNN
-F 1 "CP1" H 7200 3750 50  0000 L CNN
-	1    7150 3850
-	0    1    1    0   
-$EndComp
-$Comp
-L CP1 C17
-U 1 1 53D95FE4
-P 7150 3250
-F 0 "C17" H 7200 3350 50  0000 L CNN
-F 1 "CP1" H 7200 3150 50  0000 L CNN
-	1    7150 3250
-	0    1    1    0   
-$EndComp
-$Comp
-L CP1 C18
-U 1 1 53D95FE3
-P 7150 3550
-F 0 "C18" H 7200 3650 50  0000 L CNN
-F 1 "CP1" H 7200 3450 50  0000 L CNN
-	1    7150 3550
-	0    1    1    0   
-$EndComp
-$Comp
-L CP1 C14
-U 1 1 53D95FE2
-P 7150 2300
-F 0 "C14" H 7200 2400 50  0000 L CNN
-F 1 "CP1" H 7200 2200 50  0000 L CNN
-	1    7150 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L CP1 C13
-U 1 1 53D95FE1
-P 7150 2000
-F 0 "C13" H 7200 2100 50  0000 L CNN
-F 1 "CP1" H 7200 1900 50  0000 L CNN
-	1    7150 2000
-	0    1    1    0   
-$EndComp
-$Comp
-L CP1 C15
-U 1 1 53D95FE0
-P 7150 2600
-F 0 "C15" H 7200 2700 50  0000 L CNN
-F 1 "CP1" H 7200 2500 50  0000 L CNN
-	1    7150 2600
-	0    1    1    0   
-$EndComp
-$Comp
-L CP1 C16
-U 1 1 53D95FDF
-P 7150 2900
-F 0 "C16" H 7200 3000 50  0000 L CNN
-F 1 "CP1" H 7200 2800 50  0000 L CNN
-	1    7150 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L CP1 C11
-U 1 1 53D95FDE
-P 7150 1400
-F 0 "C11" H 7200 1500 50  0000 L CNN
-F 1 "CP1" H 7200 1300 50  0000 L CNN
-	1    7150 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L CP1 C12
-U 1 1 53D95FDD
-P 7150 1700
-F 0 "C12" H 7200 1800 50  0000 L CNN
-F 1 "CP1" H 7200 1600 50  0000 L CNN
-	1    7150 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L CP1 C9
-U 1 1 53D95FC9
-P 3250 3850
-F 0 "C9" H 3300 3950 50  0000 L CNN
-F 1 "CP1" H 3300 3750 50  0000 L CNN
-	1    3250 3850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CP1 C10
-U 1 1 53D95FC8
-P 3250 4150
-F 0 "C10" H 3300 4250 50  0000 L CNN
-F 1 "CP1" H 3300 4050 50  0000 L CNN
-	1    3250 4150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CP1 C5
-U 1 1 53D95FC1
-P 3250 2650
-F 0 "C5" H 3300 2750 50  0000 L CNN
-F 1 "CP1" H 3300 2550 50  0000 L CNN
-	1    3250 2650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CP1 C6
-U 1 1 53D95FC0
-P 3250 2950
-F 0 "C6" H 3300 3050 50  0000 L CNN
-F 1 "CP1" H 3300 2850 50  0000 L CNN
-	1    3250 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CP1 C8
-U 1 1 53D95FBF
-P 3250 3550
-F 0 "C8" H 3300 3650 50  0000 L CNN
-F 1 "CP1" H 3300 3450 50  0000 L CNN
-	1    3250 3550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CP1 C7
-U 1 1 53D95FBE
-P 3250 3250
-F 0 "C7" H 3300 3350 50  0000 L CNN
-F 1 "CP1" H 3300 3150 50  0000 L CNN
-	1    3250 3250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CP1 C3
-U 1 1 53D95FB5
-P 3250 2000
-F 0 "C3" H 3300 2100 50  0000 L CNN
-F 1 "CP1" H 3300 1900 50  0000 L CNN
-	1    3250 2000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CP1 C4
-U 1 1 53D95FB4
-P 3250 2300
-F 0 "C4" H 3300 2400 50  0000 L CNN
-F 1 "CP1" H 3300 2200 50  0000 L CNN
-	1    3250 2300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CP1 C2
-U 1 1 53D95FAB
-P 3250 1700
-F 0 "C2" H 3300 1800 50  0000 L CNN
-F 1 "CP1" H 3300 1600 50  0000 L CNN
-	1    3250 1700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CP1 C1
-U 1 1 53D95FA0
-P 3250 1400
-F 0 "C1" H 3300 1500 50  0000 L CNN
-F 1 "CP1" H 3300 1300 50  0000 L CNN
-	1    3250 1400
-	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

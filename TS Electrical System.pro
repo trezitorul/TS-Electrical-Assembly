@@ -1,6 +1,8 @@
-update=Sun 03 Aug 2014 02:47:31 PM EDT
+update=Sun 03 Aug 2014 06:43:11 PM EDT
 version=1
-last_client=cvpcb
+last_client=pcbnew
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -63,13 +65,17 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-[general]
+LibName31=termblock
+[cvpcb]
 version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=3500
-PadDimH=7000
-PadDimV=7000
+PadDrlX=450
+PadDimH=1000
+PadDimV=1000
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -83,6 +89,7 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=TS Electrical System.net
 [pcbnew/libraries]
+LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -101,10 +108,4 @@ LibName15=CAPSCWEW
 LibName16=bncSquare
 LibName17=bncs
 LibName18=SquareBnc
-LibName19=bncSqr
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName19=TERMBLOCK
