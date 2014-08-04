@@ -1,10 +1,10 @@
-# EESchema Netlist Version 1.1 created  Mon 04 Aug 2014 11:00:41 AM EDT
+# EESchema Netlist Version 1.1 created  Mon 04 Aug 2014 11:18:48 AM EDT
 (
- ( /53D9628A bncSQR C1PT1 BNC
+ ( /53D9628A bncSQRDH C1PT1 BNC
   ( 1 N-000002 )
   ( 2 N-000003 )
  )
- ( /53D9627A bncSQR C1PT2 BNC
+ ( /53D9627A bncSQRDH C1PT2 BNC
   ( 1 N-000002 )
   ( 2 N-000003 )
  )

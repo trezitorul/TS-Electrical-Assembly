@@ -1,4 +1,4 @@
-update=Mon 04 Aug 2014 11:00:25 AM EDT
+update=Mon 04 Aug 2014 11:24:38 AM EDT
 version=1
 last_client=pcbnew
 [general]
@@ -73,9 +73,9 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=600
-PadDimH=1000
-PadDimV=1000
+PadDrlX=1500
+PadDimH=1500
+PadDimV=1500
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -110,3 +110,4 @@ LibName17=bncs
 LibName18=SquareBnc
 LibName19=TERMBLOCK
 LibName20=bannanaSocket
+LibName21=Size6DrillHole

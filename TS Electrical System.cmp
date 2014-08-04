@@ -1,17 +1,17 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Mon 04 Aug 2014 11:00:41 AM EDT
+Cmp-Mod V01 Genere par PcbNew le Mon 04 Aug 2014 11:25:54 AM EDT
 
 BeginCmp
 TimeStamp = /53D9628A;
 Reference = C1PT1;
 ValeurCmp = BNC;
-IdModule  = bncSQR;
+IdModule  = bncSQRDH;
 EndCmp
 
 BeginCmp
 TimeStamp = /53D9627A;
 Reference = C1PT2;
 ValeurCmp = BNC;
-IdModule  = bncSQR;
+IdModule  = bncSQRDH;
 EndCmp
 
 BeginCmp
