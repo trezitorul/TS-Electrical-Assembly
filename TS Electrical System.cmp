@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sun 03 Aug 2014 06:42:48 PM EDT
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Mon 04 Aug 2014 11:00:41 AM EDT
 
 BeginCmp
 TimeStamp = /53D9628A;
@@ -39,14 +39,14 @@ BeginCmp
 TimeStamp = /53D9641D;
 Reference = PWRGND1;
 ValeurCmp = CONN_1;
-IdModule  = 1pin;
+IdModule  = bannanaSocket;
 EndCmp
 
 BeginCmp
 TimeStamp = /53D96425;
 Reference = PWRIN1;
 ValeurCmp = CONN_1;
-IdModule  = 1pin;
+IdModule  = bannanaSocket;
 EndCmp
 
 BeginCmp

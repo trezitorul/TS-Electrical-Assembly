@@ -1,183 +1,113 @@
-# EESchema Netlist Version 1.1 created  Mon 04 Aug 2014 10:29:52 AM EDT
+# EESchema Netlist Version 1.1 created  Mon 04 Aug 2014 11:00:41 AM EDT
 (
- ( /53DEB4CB $noname  T5 TERMBLOCK {Lib=TERMBLOCK}
-  (    1 N-000002 )
-  (    2 N-000002 )
-  (    3 N-000002 )
-  (    4 N-000002 )
-  (    5 N-000002 )
-  (    ~ N-000002 )
+ ( /53D9628A bncSQR C1PT1 BNC
+  ( 1 N-000002 )
+  ( 2 N-000003 )
  )
- ( /53DEB4CA $noname  T6 TERMBLOCK {Lib=TERMBLOCK}
-  (    1 N-000001 )
-  (    2 N-000001 )
-  (    3 N-000001 )
-  (    4 N-000001 )
-  (    5 N-000001 )
-  (    ~ N-000001 )
+ ( /53D9627A bncSQR C1PT2 BNC
+  ( 1 N-000002 )
+  ( 2 N-000003 )
  )
- ( /53DEB4C9 $noname  T7 TERMBLOCK {Lib=TERMBLOCK}
-  (    1 N-000002 )
-  (    2 N-000002 )
-  (    3 N-000002 )
-  (    4 N-000002 )
-  (    5 N-000002 )
-  (    ~ N-000002 )
+ ( /53D961F9 COIL COIL1 INDUCTOR
+  ( 1 N-000002 )
+  ( 2 N-000003 )
  )
- ( /53DEB4C8 $noname  T8 TERMBLOCK {Lib=TERMBLOCK}
-  (    1 N-000001 )
-  (    2 N-000001 )
-  (    3 N-000001 )
-  (    4 N-000001 )
-  (    5 N-000001 )
-  (    ~ N-000001 )
+ ( /53D961EB COIL COIL2 INDUCTOR
+  ( 1 N-000003 )
+  ( 2 N-000002 )
  )
- ( /53DEB477 $noname  T4 TERMBLOCK {Lib=TERMBLOCK}
-  (    1 N-000001 )
-  (    2 N-000001 )
-  (    3 N-000001 )
-  (    4 N-000001 )
-  (    5 N-000001 )
-  (    ~ N-000001 )
+ ( /53D96065 COIL MSW1 SPST
+  ( 1 N-000001 )
+  ( 2 N-000003 )
  )
- ( /53DEB472 $noname  T3 TERMBLOCK {Lib=TERMBLOCK}
-  (    1 N-000002 )
-  (    2 N-000002 )
-  (    3 N-000002 )
-  (    4 N-000002 )
-  (    5 N-000002 )
-  (    ~ N-000002 )
+ ( /53D9641D bannanaSocket PWRGND1 CONN_1
+  ( 1 N-000001 )
  )
- ( /53DEB465 $noname  T2 TERMBLOCK {Lib=TERMBLOCK}
-  (    1 N-000001 )
-  (    2 N-000001 )
-  (    3 N-000001 )
-  (    4 N-000001 )
-  (    5 N-000001 )
-  (    ~ N-000001 )
+ ( /53D96425 bannanaSocket PWRIN1 CONN_1
+  ( 1 N-000002 )
  )
- ( /53DEB423 $noname  T1 TERMBLOCK {Lib=TERMBLOCK}
-  (    1 N-000002 )
-  (    2 N-000002 )
-  (    3 N-000002 )
-  (    4 N-000002 )
-  (    5 N-000002 )
-  (    ~ N-000002 )
+ ( /53DEB423 TERMBLOCK T1 TERMBLOCK
+  ( 1 N-000002 )
+  ( 2 N-000002 )
+  ( 3 N-000002 )
+  ( 4 N-000002 )
+  ( 5 N-000002 )
+  ( ~ N-000002 )
  )
- ( /53D96425 $noname  PWRIN1 CONN_1 {Lib=CONN_1}
-  (    1 N-000002 )
+ ( /53DEB465 TERMBLOCK T2 TERMBLOCK
+  ( 1 N-000001 )
+  ( 2 N-000001 )
+  ( 3 N-000001 )
+  ( 4 N-000001 )
+  ( 5 N-000001 )
+  ( ~ N-000001 )
  )
- ( /53D9641D $noname  PWRGND1 CONN_1 {Lib=CONN_1}
-  (    1 N-000001 )
+ ( /53DEB472 TERMBLOCK T3 TERMBLOCK
+  ( 1 N-000002 )
+  ( 2 N-000002 )
+  ( 3 N-000002 )
+  ( 4 N-000002 )
+  ( 5 N-000002 )
+  ( ~ N-000002 )
  )
- ( /53D9628A $noname  C1PT1 BNC {Lib=BNC}
-  (    1 N-000002 )
-  (    2 N-000003 )
+ ( /53DEB477 TERMBLOCK T4 TERMBLOCK
+  ( 1 N-000001 )
+  ( 2 N-000001 )
+  ( 3 N-000001 )
+  ( 4 N-000001 )
+  ( 5 N-000001 )
+  ( ~ N-000001 )
  )
- ( /53D9627A $noname  C1PT2 BNC {Lib=BNC}
-  (    1 N-000002 )
-  (    2 N-000003 )
+ ( /53DEB4CB TERMBLOCK T5 TERMBLOCK
+  ( 1 N-000002 )
+  ( 2 N-000002 )
+  ( 3 N-000002 )
+  ( 4 N-000002 )
+  ( 5 N-000002 )
+  ( ~ N-000002 )
  )
- ( /53D96065 $noname  MSW1 SPST {Lib=SPST}
-  (    1 N-000001 )
-  (    2 N-000003 )
+ ( /53DEB4CA TERMBLOCK T6 TERMBLOCK
+  ( 1 N-000001 )
+  ( 2 N-000001 )
+  ( 3 N-000001 )
+  ( 4 N-000001 )
+  ( 5 N-000001 )
+  ( ~ N-000001 )
  )
- ( /53D961F9 $noname  COIL1 INDUCTOR {Lib=INDUCTOR}
-  (    1 N-000002 )
-  (    2 N-000003 )
+ ( /53DEB4C9 TERMBLOCK T7 TERMBLOCK
+  ( 1 N-000002 )
+  ( 2 N-000002 )
+  ( 3 N-000002 )
+  ( 4 N-000002 )
+  ( 5 N-000002 )
+  ( ~ N-000002 )
  )
- ( /53D961EB $noname  COIL2 INDUCTOR {Lib=INDUCTOR}
-  (    1 N-000003 )
-  (    2 N-000002 )
+ ( /53DEB4C8 TERMBLOCK T8 TERMBLOCK
+  ( 1 N-000001 )
+  ( 2 N-000001 )
+  ( 3 N-000001 )
+  ( 4 N-000001 )
+  ( 5 N-000001 )
+  ( ~ N-000001 )
  )
- ( /53D96017 $noname  TVS2 DIODESCH {Lib=DIODESCH}
-  (    1 N-000003 )
-  (    2 N-000002 )
+ ( /53D9600F D5 TVS1 DIODESCH
+  ( 1 N-000003 )
+  ( 2 N-000002 )
  )
- ( /53D9600F $noname  TVS1 DIODESCH {Lib=DIODESCH}
-  (    1 N-000003 )
-  (    2 N-000002 )
+ ( /53D96017 D5 TVS2 DIODESCH
+  ( 1 N-000003 )
+  ( 2 N-000002 )
  )
 )
 *
 { Allowed footprints by component:
-$component TVS2
+$component TVS1
  D?
  S*
 $endlist
-$component TVS1
+$component TVS2
  D?
  S*
 $endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 1 "" ""
- PWRGND1 1
- T2 3
- T4 5
- T6 1
- T6 2
- T6 3
- T4 ~
- MSW1 1
- T2 2
- T2 4
- T2 5
- T2 ~
- T8 5
- T6 5
- T6 ~
- T8 2
- T2 1
- T8 1
- T6 4
- T8 3
- T8 4
- T8 ~
- T4 1
- T4 2
- T4 3
- T4 4
-Net 2 "" ""
- C1PT1 1
- T3 1
- TVS1 2
- TVS2 2
- COIL2 2
- COIL1 1
- T1 5
- C1PT2 1
- T3 2
- PWRIN1 1
- T1 ~
- T5 ~
- T5 5
- T5 4
- T5 3
- T5 2
- T7 4
- T7 1
- T1 4
- T7 2
- T7 3
- T3 3
- T7 5
- T7 ~
- T5 1
- T1 3
- T1 2
- T1 1
- T3 ~
- T3 5
- T3 4
-Net 3 "" ""
- COIL2 1
- MSW1 2
- C1PT1 2
- C1PT2 2
- COIL1 2
- TVS2 1
- TVS1 1
-}
-#End
