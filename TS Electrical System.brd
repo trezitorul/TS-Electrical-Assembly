@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Mon 04 Aug 2014 11:29:36 AM EDT
+PCBNEW-BOARD Version 1 date Wed 06 Aug 2014 12:25:44 PM EDT
 
 # Created by Pcbnew(2012-apr-16-27)-stable
 
@@ -9,8 +9,8 @@ Ly 1FFF8001
 EnabledLayers 1FFF8001
 Links 53
 NoConn 0
-Di 6140 6649 96013 75627
-Ndraw 40
+Di 7400 9731 96013 71068
+Ndraw 26
 Ntrack 48
 Nzone 0
 BoardThickness 630
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title ""
-Date "4 aug 2014"
+Date "6 aug 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -64,7 +64,7 @@ PadDrill 1500
 Pad2MaskClearance 100
 GridOrigin 20000 20000
 AuxiliaryAxisOrg 50000 40000
-PcbPlotParams (pcbplotparams (layerselection 1) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference false) (plotvalue false) (plotothertext false) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 2) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 32768) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference false) (plotvalue false) (plotothertext false) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 2) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
 $EndSETUP
 
 $EQUIPOT
@@ -931,10 +931,28 @@ Po 0 0
 $EndPAD
 $EndMODULE  DRL#6
 $PCB_TARGET
-Po 0 28 68000 12000 5000 150 00000000
+Po 0 28 50000 15900 5000 150 00000000
 $EndPCB_TARGET
 $PCB_TARGET
-Po 0 28 36000 13000 5000 150 00000000
+Po 0 28 50000 64400 5000 150 00000000
+$EndPCB_TARGET
+$PCB_TARGET
+Po 0 28 85500 39800 5000 150 00000000
+$EndPCB_TARGET
+$PCB_TARGET
+Po 0 28 15800 40000 5000 150 00000000
+$EndPCB_TARGET
+$PCB_TARGET
+Po 0 28 17500 61400 5000 150 00000000
+$EndPCB_TARGET
+$PCB_TARGET
+Po 0 28 81900 61500 5000 150 00000000
+$EndPCB_TARGET
+$PCB_TARGET
+Po 0 28 81800 18200 5000 150 00000000
+$EndPCB_TARGET
+$PCB_TARGET
+Po 0 28 18500 18400 5000 150 00000000
 $EndPCB_TARGET
 $DRAWSEGMENT
 Po 0 20000 60000 20000 20000 150
@@ -961,63 +979,7 @@ Po 0 81300 11500 82200 11500 150
 De 28 0 900 0 0
 $EndDRAWSEGMENT
 $DRAWSEGMENT
-Po 0 76600 6800 81300 11500 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 76600 10400 76600 6800 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 89300 10400 76600 10400 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 84900 14800 89300 10400 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 84900 7700 84900 14800 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 86600 65700 95700 65700 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 92100 71200 86600 65700 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 55500 12300 55500 11200 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 64000 12300 55500 12300 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 59700 8000 64000 12300 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
 Po 0 59700 16000 59800 16000 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 49665 70677 49665 70079 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 41067 70677 49665 70677 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 45866 75476 41067 70677 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 45866 65476 45866 75476 150
 De 28 0 900 0 0
 $EndDRAWSEGMENT
 $DRAWSEGMENT
@@ -1027,30 +989,6 @@ $EndDRAWSEGMENT
 $DRAWSEGMENT
 Po 0 48531 11874 48531 12236 150
 De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 13610 39354 13610 38874 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 6291 39354 13610 39354 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 10252 43315 6291 39354 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 10252 51594 10252 43315 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 10252 34193 10252 51594 150
-De 28 0 900 0 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 87039 67697 86921 67697 150
-De 24 0 900 0 0
 $EndDRAWSEGMENT
 $DRAWSEGMENT
 Po 0 14949 15681 14949 17083 150
