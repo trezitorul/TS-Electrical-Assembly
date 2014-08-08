@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 08 Aug 2014 01:29:00 AM EDT
+EESchema Schematic File Version 2  date Fri 08 Aug 2014 01:41:24 AM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,6 +44,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L NPN Q?
+U 1 1 53E462E6
+P 4150 3000
+F 0 "Q?" H 4150 2850 50  0000 R CNN
+F 1 "NPN" H 4150 3150 50  0000 R CNN
+	1    4150 3000
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
 	4650 3000 4350 3000
 Wire Wire Line
@@ -123,14 +132,5 @@ F 0 "TVS1" H 3850 2350 40  0000 C CNN
 F 1 "DIODE" H 3850 2150 40  0000 C CNN
 	1    3850 2250
 	0    -1   -1   0   
-$EndComp
-$Comp
-L MOSFET_N Q1
-U 1 1 53E45C42
-P 4150 3000
-F 0 "Q1" H 4160 3170 60  0000 R CNN
-F 1 "MOSFET_N" H 4160 2850 60  0000 R CNN
-	1    4150 3000
-	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC

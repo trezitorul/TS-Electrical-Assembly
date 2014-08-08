@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 08 Aug 2014 01:41:24 AM EDT
+EESchema Schematic File Version 2  date Fri 08 Aug 2014 01:48:35 AM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,10 +45,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L NPN Q?
+L NPN Q1
 U 1 1 53E462E6
 P 4150 3000
-F 0 "Q?" H 4150 2850 50  0000 R CNN
+F 0 "Q1" H 4150 2850 50  0000 R CNN
 F 1 "NPN" H 4150 3150 50  0000 R CNN
 	1    4150 3000
 	-1   0    0    1   
