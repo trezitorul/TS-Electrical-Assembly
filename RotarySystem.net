@@ -1,0 +1,55 @@
+# EESchema Netlist Version 1.1 created  Thu 07 Aug 2014 06:54:53 PM EDT
+(
+ ( /53E3EEE2 bncSQRDH P1 BNC
+  ( 1 N-000001 )
+  ( 2 N-000002 )
+ )
+ ( /53E40215 1pin PWR+1 CONN_1
+  ( 1 N-000005 )
+ )
+ ( /53E4021D 1pin PWR-1 CONN_1
+  ( 1 N-000004 )
+ )
+ ( /53E3FFEC R3 R1 R
+  ( 1 N-000001 )
+  ( 2 N-000004 )
+ )
+ ( /53E3FFE6 R3 R2 R
+  ( 1 N-000005 )
+  ( 2 N-000002 )
+ )
+ ( /53E3FFF0 R3 R3 R
+  ( 1 N-000002 )
+  ( 2 N-000004 )
+ )
+ ( /53E3FFFA 3PIN_6mm RV1 POT
+  ( 1 ? )
+  ( 2 N-000001 )
+  ( 3 N-000005 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

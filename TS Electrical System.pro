@@ -1,4 +1,4 @@
-update=Mon 04 Aug 2014 11:24:38 AM EDT
+update=Fri 08 Aug 2014 12:52:59 AM EDT
 version=1
 last_client=pcbnew
 [general]
@@ -73,9 +73,9 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=1500
-PadDimH=1500
-PadDimV=1500
+PadDrlX=1000
+PadDimH=2000
+PadDimV=2000
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -87,7 +87,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=TS Electrical System.net
+LastNetListRead=RotarySystem.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -111,3 +111,4 @@ LibName18=SquareBnc
 LibName19=TERMBLOCK
 LibName20=bannanaSocket
 LibName21=Size6DrillHole
+LibName22=potConn

@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Thu 07 Aug 2014 06:54:53 PM EDT
+
+BeginCmp
+TimeStamp = /53E3EEE2;
+Reference = P1;
+ValeurCmp = BNC;
+IdModule  = bncSQRDH;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E40215;
+Reference = PWR+1;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E4021D;
+Reference = PWR-1;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3FFEC;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3FFE6;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3FFF0;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3FFFA;
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = 3PIN_6mm;
+EndCmp
+
+EndListe
