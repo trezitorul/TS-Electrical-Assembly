@@ -1,0 +1,36 @@
+# EESchema Netlist Version 1.1 created  Fri 08 Aug 2014 01:41:55 AM EDT
+(
+ ( /53E45F82 1pin ARDUGND1 CONN_1
+  ( 1 N-000003 )
+ )
+ ( /53E45F8A 1pin LOGICPIN1 CONN_1
+  ( 1 N-000004 )
+ )
+ ( /53E45F42 1pin P+1 CONN_1
+  ( 1 N-000001 )
+ )
+ ( /53E45F4C 1pin P-1 CONN_1
+  ( 1 N-000003 )
+ )
+ ( /53E462E6 TO220_VERT Q1 NPN
+  ( 1 N-000002 )
+  ( 2 N-000004 )
+  ( 3 N-000003 )
+ )
+ ( /53E45EC6 2PIN_6mm RELAY1 CONN_2
+  ( 1 N-000001 )
+  ( 2 N-000002 )
+ )
+ ( /53E45E48 D5 TVS1 DIODE
+  ( 1 N-000002 )
+  ( 2 N-000001 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component TVS1
+ D?
+ S*
+$endlist
+$endfootprintlist
+}

@@ -1,4 +1,4 @@
-update=Fri 08 Aug 2014 12:52:59 AM EDT
+update=Fri 08 Aug 2014 01:32:32 AM EDT
 version=1
 last_client=pcbnew
 [general]
@@ -87,7 +87,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=RotarySystem.net
+LastNetListRead=RelayControl.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
